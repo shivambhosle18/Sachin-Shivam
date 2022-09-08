@@ -1,4 +1,4 @@
-# these are the commands for git and github.
+#####-- These are the commands for Git and Github --#####
 
 git log
 git config --global user.name Shivam Bhosle - UserName
