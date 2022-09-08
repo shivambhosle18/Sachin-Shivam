@@ -1,3 +1,5 @@
+# these are the commands for git and github.
+
 git log
 git config --global user.name Shivam Bhosle - UserName
 git config --global user.email - Email log
