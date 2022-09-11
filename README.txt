@@ -1,6 +1,6 @@
 #####-- These are the commands for Git and Github --#####
 
-git log
+git log -- tells you commit ID's
 git config --global user.name Shivam Bhosle - UserName
 git config --global user.email - Email log
 git config --global user.username
@@ -30,6 +30,14 @@ git branch -m <old branch name> <new branch name>
 git push origin --delete <branch name> = will delete branch from git hub
 git rm <filename/folder name> = to delete perticular folder or file
 
+>>> When you want to toggle between branches then git will ask you to commit before toggling
+it will not allow you to toggle untill you commit, so if you dont want to commit and still want to
+toggle other branches then you have to use the following commands
+
+git stash -- to save it and hide, after that you will be able to toggle without commiting your work
+git stash pop -- to retrive the work where you left by saying git stash
+
+<<<
 
 
 ====== Connecting Existing Local Directory to repository on github =======
