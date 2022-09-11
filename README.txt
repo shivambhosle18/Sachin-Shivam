@@ -18,6 +18,7 @@ git push --set-upstream origin <branch name at local> -- to push the current bra
 git pull
 git pull origin <name of main branch at hub> -- to pull the data from main branch on hub
 git pull origin <name of main branch at hub> --allow-unrelated-histories -- to download all the files on remote to the local by irgnoring merging conflicts
+git rebase -- performs pull and then push at one go 
 git touch - to make new empty files
 touch <filename.txt> = create new file
 start <filename.txt> = open that file
