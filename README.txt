@@ -29,6 +29,7 @@ git branch -d <branch name> = to delete the branch
 git branch -m <old branch name> <new branch name>
 git push origin --delete <branch name> = will delete branch from git hub
 git rm <filename/folder name> = to delete perticular folder or file
+git diff -- to see the changes you have made in the file 
 
 >>> When you want to toggle between branches then git will ask you to commit before toggling
 it will not allow you to toggle untill you commit, so if you dont want to commit and still want to
